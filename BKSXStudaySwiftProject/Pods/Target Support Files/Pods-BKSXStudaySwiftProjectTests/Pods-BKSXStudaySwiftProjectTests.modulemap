@@ -1,0 +1,6 @@
+framework module Pods_BKSXStudaySwiftProjectTests {
+  umbrella header "Pods-BKSXStudaySwiftProjectTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
