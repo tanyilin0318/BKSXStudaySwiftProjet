@@ -34,7 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //MARK: --
         //控制整个功能是否启用。
-        IQKeyboardManager.shared.enable = true
+        IQKeyboardManager.shared.enable = false
         //控制点击背景是否收起键盘
         IQKeyboardManager.shared.shouldResignOnTouchOutside = true
         //控制键盘上的工具条文字颜色是否用户自定义
@@ -43,7 +43,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //将右边Done改成完成
         IQKeyboardManager.shared.toolbarDoneBarButtonItemText = "完成"
         // 控制是否显示键盘上的工具条
-        IQKeyboardManager.shared.enableAutoToolbar = true
+        IQKeyboardManager.shared.enableAutoToolbar = false
         //最新版的设置键盘的returnKey的关键字 ,可以点击键盘上的next键，自动跳转到下一个输入框，最后一个输入框点击完成，自动收起键盘
         IQKeyboardManager.shared.toolbarManageBehaviour = .byPosition
         

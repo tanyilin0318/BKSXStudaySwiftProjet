@@ -221,7 +221,7 @@ open class YLBaseViewController: UIViewController{
         var image : UIImage?
         
         if imageName.isEmpty{
-            image = UIImage.imageWithColor(color: UIColor.white)
+            image = UIImage.imageWithColor(UIColor.white)
         }else {
             image = UIImage(named: imageName)
         }

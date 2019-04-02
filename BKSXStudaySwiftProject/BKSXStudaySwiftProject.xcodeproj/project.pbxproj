@@ -8,6 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		26355543A7303724968483DF /* Pods_BKSXStudaySwiftProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEEAB323F08439726D4450B /* Pods_BKSXStudaySwiftProjectUITests.framework */; };
+		3E156BE92148A6EC006E469C /* YLChatShareMoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E156BE82148A6EC006E469C /* YLChatShareMoreView.swift */; };
+		3E156C2E2148EA93006E469C /* YLChatShareMoreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E156C2D2148EA93006E469C /* YLChatShareMoreCollectionViewCell.swift */; };
+		3E1E7F2C214F863400EA06D8 /* YLMoyaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1E7F2B214F863400EA06D8 /* YLMoyaController.swift */; };
+		3E205BE82140BD2F00E0000D /* YLChatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E205BE72140BD2F00E0000D /* YLChatButton.swift */; };
+		3E424DBB21427E2700C31CA6 /* YLChatViewController+ActionBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E424DBA21427E2700C31CA6 /* YLChatViewController+ActionBar.swift */; };
+		3E4484592154832500538E00 /* YLChatHorizontalLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4484582154832500538E00 /* YLChatHorizontalLayout.swift */; };
+		3E578A002138D8940016DF42 /* ExtensionsCommonTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5789FF2138D8940016DF42 /* ExtensionsCommonTool.swift */; };
+		3E578A032138DEC10016DF42 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E578A022138DEC10016DF42 /* UICollectionView+Extension.swift */; };
+		3E66A7F92146428C00BAA34A /* YLChatVoiceIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E66A7F82146428C00BAA34A /* YLChatVoiceIndicatorView.swift */; };
+		3E6FD49E2151E0C000800A10 /* YLHttpUploadManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6FD49D2151E0C000800A10 /* YLHttpUploadManger.swift */; };
+		3E6FD4A121521FEE00800A10 /* YLUploadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6FD4A021521FEE00800A10 /* YLUploadModel.swift */; };
+		3E6FD4A521524E9D00800A10 /* YLProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6FD4A421524E9D00800A10 /* YLProgressHUD.swift */; };
+		3EC85553214F88D0009C1A9F /* YLHomeApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC85552214F88D0009C1A9F /* YLHomeApi.swift */; };
+		3EC85555214F95CB009C1A9F /* YLNetworkingProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC85554214F95CB009C1A9F /* YLNetworkingProvider.swift */; };
+		3EC85557214F95DD009C1A9F /* YLNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC85556214F95DD009C1A9F /* YLNetworking.swift */; };
 		3ECA66B2212E488D00D3258A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECA66B1212E488D00D3258A /* AppDelegate.swift */; };
 		3ECA66B4212E488D00D3258A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECA66B3212E488D00D3258A /* ViewController.swift */; };
 		3ECA66B7212E488D00D3258A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ECA66B5212E488D00D3258A /* Main.storyboard */; };
@@ -45,6 +60,21 @@
 		3ECA6749212E497E00D3258A /* UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECA671E212E497E00D3258A /* UIView+extension.swift */; };
 		3ECA674A212E497E00D3258A /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECA6720212E497E00D3258A /* UIViewController+Extension.swift */; };
 		3ECA674B212E497E00D3258A /* YLHomeContrller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECA6725212E497E00D3258A /* YLHomeContrller.swift */; };
+		3EEB488C2149FADD00DD6F07 /* YLFullyHorizontalFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEB488B2149FADD00DD6F07 /* YLFullyHorizontalFlowLayout.swift */; };
+		3EEB488E214A318C00DD6F07 /* YLChatEmotionCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEB488D214A318C00DD6F07 /* YLChatEmotionCollectionView.swift */; };
+		3EEB4890214A31CB00DD6F07 /* YLChatEmotionInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEB488F214A31CB00DD6F07 /* YLChatEmotionInputView.swift */; };
+		3EEB4892214A321B00DD6F07 /* YLChatEmotionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEB4891214A321B00DD6F07 /* YLChatEmotionCell.swift */; };
+		3EEB4894214A3A9300DD6F07 /* YLEmotionManagerBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEB4893214A3A9300DD6F07 /* YLEmotionManagerBar.swift */; };
+		3EEB4897214A3C7300DD6F07 /* EmotionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEB4896214A3C7300DD6F07 /* EmotionModel.swift */; };
+		3EEB4899214A59DE00DD6F07 /* YLConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEB4898214A59DE00DD6F07 /* YLConfig.swift */; };
+		3EEB489C214A5A5700DD6F07 /* Expression.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3EEB489A214A5A5600DD6F07 /* Expression.bundle */; };
+		3EEB489D214A5A5700DD6F07 /* Expression.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3EEB489B214A5A5700DD6F07 /* Expression.plist */; };
+		3EEC8CC6213FBBC600505167 /* YLChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEC8CC5213FBBC600505167 /* YLChatViewController.swift */; };
+		3EEC8CC8213FBF6B00505167 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EEC8CC7213FBF6B00505167 /* Media.xcassets */; };
+		3EEC8CCA213FD54F00505167 /* YLChatViewController+SubViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEC8CC9213FD54F00505167 /* YLChatViewController+SubViews.swift */; };
+		3EEC8CCC213FE06B00505167 /* YLChatActionBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEC8CCB213FE06B00505167 /* YLChatActionBarView.swift */; };
+		3EF2824F21BDFC980028C2CA /* YLMyMsgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF2824E21BDFC980028C2CA /* YLMyMsgViewController.swift */; };
+		3EF2825121BE13D60028C2CA /* YLWareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF2825021BE13D60028C2CA /* YLWareView.swift */; };
 		7DE2A49F34078968E540258F /* Pods_BKSXStudaySwiftProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D16FC1F487881B13E6011DE /* Pods_BKSXStudaySwiftProject.framework */; };
 		96B03664C0EEEE89FB243882 /* Pods_BKSXStudaySwiftProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30E1C4C18F671BA814C0F69 /* Pods_BKSXStudaySwiftProjectTests.framework */; };
 /* End PBXBuildFile section */
@@ -69,6 +99,21 @@
 /* Begin PBXFileReference section */
 		11465999D551EC607C5FB2A2 /* Pods-BKSXStudaySwiftProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BKSXStudaySwiftProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BKSXStudaySwiftProjectTests/Pods-BKSXStudaySwiftProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		17D0066B2EA868A319543807 /* Pods-BKSXStudaySwiftProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BKSXStudaySwiftProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BKSXStudaySwiftProjectUITests/Pods-BKSXStudaySwiftProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E156BE82148A6EC006E469C /* YLChatShareMoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLChatShareMoreView.swift; sourceTree = "<group>"; };
+		3E156C2D2148EA93006E469C /* YLChatShareMoreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLChatShareMoreCollectionViewCell.swift; sourceTree = "<group>"; };
+		3E1E7F2B214F863400EA06D8 /* YLMoyaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLMoyaController.swift; sourceTree = "<group>"; };
+		3E205BE72140BD2F00E0000D /* YLChatButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLChatButton.swift; sourceTree = "<group>"; };
+		3E424DBA21427E2700C31CA6 /* YLChatViewController+ActionBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "YLChatViewController+ActionBar.swift"; sourceTree = "<group>"; };
+		3E4484582154832500538E00 /* YLChatHorizontalLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLChatHorizontalLayout.swift; sourceTree = "<group>"; };
+		3E5789FF2138D8940016DF42 /* ExtensionsCommonTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsCommonTool.swift; sourceTree = "<group>"; };
+		3E578A022138DEC10016DF42 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
+		3E66A7F82146428C00BAA34A /* YLChatVoiceIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLChatVoiceIndicatorView.swift; sourceTree = "<group>"; };
+		3E6FD49D2151E0C000800A10 /* YLHttpUploadManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLHttpUploadManger.swift; sourceTree = "<group>"; };
+		3E6FD4A021521FEE00800A10 /* YLUploadModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLUploadModel.swift; sourceTree = "<group>"; };
+		3E6FD4A421524E9D00800A10 /* YLProgressHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLProgressHUD.swift; sourceTree = "<group>"; };
+		3EC85552214F88D0009C1A9F /* YLHomeApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLHomeApi.swift; sourceTree = "<group>"; };
+		3EC85554214F95CB009C1A9F /* YLNetworkingProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLNetworkingProvider.swift; sourceTree = "<group>"; };
+		3EC85556214F95DD009C1A9F /* YLNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLNetworking.swift; sourceTree = "<group>"; };
 		3ECA66AE212E488D00D3258A /* BKSXStudaySwiftProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BKSXStudaySwiftProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ECA66B1212E488D00D3258A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3ECA66B3212E488D00D3258A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +157,21 @@
 		3ECA671E212E497E00D3258A /* UIView+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+extension.swift"; sourceTree = "<group>"; };
 		3ECA6720212E497E00D3258A /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		3ECA6725212E497E00D3258A /* YLHomeContrller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLHomeContrller.swift; sourceTree = "<group>"; };
+		3EEB488B2149FADD00DD6F07 /* YLFullyHorizontalFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLFullyHorizontalFlowLayout.swift; sourceTree = "<group>"; };
+		3EEB488D214A318C00DD6F07 /* YLChatEmotionCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLChatEmotionCollectionView.swift; sourceTree = "<group>"; };
+		3EEB488F214A31CB00DD6F07 /* YLChatEmotionInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLChatEmotionInputView.swift; sourceTree = "<group>"; };
+		3EEB4891214A321B00DD6F07 /* YLChatEmotionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLChatEmotionCell.swift; sourceTree = "<group>"; };
+		3EEB4893214A3A9300DD6F07 /* YLEmotionManagerBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLEmotionManagerBar.swift; sourceTree = "<group>"; };
+		3EEB4896214A3C7300DD6F07 /* EmotionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionModel.swift; sourceTree = "<group>"; };
+		3EEB4898214A59DE00DD6F07 /* YLConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLConfig.swift; sourceTree = "<group>"; };
+		3EEB489A214A5A5600DD6F07 /* Expression.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Expression.bundle; sourceTree = "<group>"; };
+		3EEB489B214A5A5700DD6F07 /* Expression.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expression.plist; sourceTree = "<group>"; };
+		3EEC8CC5213FBBC600505167 /* YLChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLChatViewController.swift; sourceTree = "<group>"; };
+		3EEC8CC7213FBF6B00505167 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		3EEC8CC9213FD54F00505167 /* YLChatViewController+SubViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "YLChatViewController+SubViews.swift"; sourceTree = "<group>"; };
+		3EEC8CCB213FE06B00505167 /* YLChatActionBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLChatActionBarView.swift; sourceTree = "<group>"; };
+		3EF2824E21BDFC980028C2CA /* YLMyMsgViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLMyMsgViewController.swift; sourceTree = "<group>"; };
+		3EF2825021BE13D60028C2CA /* YLWareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLWareView.swift; sourceTree = "<group>"; };
 		43A349F3454A2E0665B0345C /* Pods-BKSXStudaySwiftProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BKSXStudaySwiftProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BKSXStudaySwiftProject/Pods-BKSXStudaySwiftProject.release.xcconfig"; sourceTree = "<group>"; };
 		6B96F551AA28CA456FAE2EDD /* Pods-BKSXStudaySwiftProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BKSXStudaySwiftProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BKSXStudaySwiftProject/Pods-BKSXStudaySwiftProject.debug.xcconfig"; sourceTree = "<group>"; };
 		7CB3026F08D60E04F3F7CCA0 /* Pods-BKSXStudaySwiftProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BKSXStudaySwiftProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BKSXStudaySwiftProjectUITests/Pods-BKSXStudaySwiftProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -162,6 +222,56 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		3E1E7F29214F844300EA06D8 /* Moya */ = {
+			isa = PBXGroup;
+			children = (
+				3E1E7F2B214F863400EA06D8 /* YLMoyaController.swift */,
+			);
+			path = Moya;
+			sourceTree = "<group>";
+		};
+		3E1E7F2A214F856500EA06D8 /* HttpManager */ = {
+			isa = PBXGroup;
+			children = (
+				3EC85552214F88D0009C1A9F /* YLHomeApi.swift */,
+				3EC85554214F95CB009C1A9F /* YLNetworkingProvider.swift */,
+				3EC85556214F95DD009C1A9F /* YLNetworking.swift */,
+				3E6FD49D2151E0C000800A10 /* YLHttpUploadManger.swift */,
+			);
+			path = HttpManager;
+			sourceTree = "<group>";
+		};
+		3E578A012138DEA90016DF42 /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				3E578A022138DEC10016DF42 /* UICollectionView+Extension.swift */,
+			);
+			path = UICollectionView;
+			sourceTree = "<group>";
+		};
+		3E6FD49F21521FC800800A10 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3E6FD4A021521FEE00800A10 /* YLUploadModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3E6FD4A22152482000800A10 /* PhotoManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PhotoManager;
+			sourceTree = "<group>";
+		};
+		3E6FD4A321524E6E00800A10 /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				3E6FD4A421524E9D00800A10 /* YLProgressHUD.swift */,
+			);
+			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
 		3ECA66A5212E488D00D3258A = {
 			isa = PBXGroup;
 			children = (
@@ -191,6 +301,7 @@
 				3ECA66B3212E488D00D3258A /* ViewController.swift */,
 				3ECA66B5212E488D00D3258A /* Main.storyboard */,
 				3ECA66BB212E488E00D3258A /* Assets.xcassets */,
+				3EEC8CC7213FBF6B00505167 /* Media.xcassets */,
 				3ECA66BD212E488E00D3258A /* LaunchScreen.storyboard */,
 				3ECA66C0212E488E00D3258A /* Info.plist */,
 				3ECA66B8212E488D00D3258A /* BKSXStudaySwiftProject.xcdatamodeld */,
@@ -323,6 +434,7 @@
 		3ECA66F9212E497E00D3258A /* Extensions(扩展) */ = {
 			isa = PBXGroup;
 			children = (
+				3E5789FF2138D8940016DF42 /* ExtensionsCommonTool.swift */,
 				3ECA66FA212E497E00D3258A /* App(程序信息) */,
 				3ECA66FD212E497E00D3258A /* Category(分类) */,
 			);
@@ -399,6 +511,7 @@
 		3ECA6706212E497E00D3258A /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				3E578A012138DEA90016DF42 /* UICollectionView */,
 				3ECA6707212E497E00D3258A /* UIBarButtonItem */,
 				3ECA6709212E497E00D3258A /* UIButton */,
 				3ECA670B212E497E00D3258A /* UIColor */,
@@ -523,6 +636,9 @@
 		3ECA6721212E497E00D3258A /* Manage(管理) */ = {
 			isa = PBXGroup;
 			children = (
+				3E6FD4A321524E6E00800A10 /* ProgressHUD */,
+				3E6FD49F21521FC800800A10 /* Model */,
+				3E1E7F2A214F856500EA06D8 /* HttpManager */,
 			);
 			path = "Manage(管理)";
 			sourceTree = "<group>";
@@ -530,6 +646,9 @@
 		3ECA6722212E497E00D3258A /* Modules(功能) */ = {
 			isa = PBXGroup;
 			children = (
+				3EF2824521BDFC4D0028C2CA /* My(我的) */,
+				3E1E7F29214F844300EA06D8 /* Moya */,
+				3EEF5FF0213FBB11003CEE6D /* Chat */,
 				3ECA6723212E497E00D3258A /* Home(首页) */,
 				3ECA6729212E497E00D3258A /* Main(主类) */,
 			);
@@ -601,8 +720,107 @@
 		3ECA672D212E497E00D3258A /* Utilities(工具类) */ = {
 			isa = PBXGroup;
 			children = (
+				3E6FD4A22152482000800A10 /* PhotoManager */,
 			);
 			path = "Utilities(工具类)";
+			sourceTree = "<group>";
+		};
+		3EEB488A2149FA6A00DD6F07 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				3EEB488B2149FADD00DD6F07 /* YLFullyHorizontalFlowLayout.swift */,
+				3EEB489A214A5A5600DD6F07 /* Expression.bundle */,
+				3EEB489B214A5A5700DD6F07 /* Expression.plist */,
+				3EEB4898214A59DE00DD6F07 /* YLConfig.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		3EEB4895214A3C4900DD6F07 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3EEB4896214A3C7300DD6F07 /* EmotionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3EEC8CC3213FBBA000505167 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3EEC8CCB213FE06B00505167 /* YLChatActionBarView.swift */,
+				3E205BE72140BD2F00E0000D /* YLChatButton.swift */,
+				3E66A7F82146428C00BAA34A /* YLChatVoiceIndicatorView.swift */,
+				3E156BE82148A6EC006E469C /* YLChatShareMoreView.swift */,
+				3E156C2D2148EA93006E469C /* YLChatShareMoreCollectionViewCell.swift */,
+				3EEB488F214A31CB00DD6F07 /* YLChatEmotionInputView.swift */,
+				3EEB488D214A318C00DD6F07 /* YLChatEmotionCollectionView.swift */,
+				3EEB4891214A321B00DD6F07 /* YLChatEmotionCell.swift */,
+				3EEB4893214A3A9300DD6F07 /* YLEmotionManagerBar.swift */,
+				3E4484582154832500538E00 /* YLChatHorizontalLayout.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3EEC8CC4213FBBA600505167 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3EEC8CC5213FBBC600505167 /* YLChatViewController.swift */,
+				3EEC8CC9213FD54F00505167 /* YLChatViewController+SubViews.swift */,
+				3E424DBA21427E2700C31CA6 /* YLChatViewController+ActionBar.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3EEF5FF0213FBB11003CEE6D /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				3EEB4895214A3C4900DD6F07 /* Model */,
+				3EEB488A2149FA6A00DD6F07 /* General */,
+				3EEC8CC4213FBBA600505167 /* ViewController */,
+				3EEC8CC3213FBBA000505167 /* View */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		3EF2824521BDFC4D0028C2CA /* My(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				3EF2824621BDFC4D0028C2CA /* Controller */,
+				3EF2824821BDFC4D0028C2CA /* Model */,
+				3EF2824A21BDFC4D0028C2CA /* View */,
+				3EF2824B21BDFC4D0028C2CA /* ViweModel */,
+			);
+			path = "My(我的)";
+			sourceTree = "<group>";
+		};
+		3EF2824621BDFC4D0028C2CA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3EF2824E21BDFC980028C2CA /* YLMyMsgViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3EF2824821BDFC4D0028C2CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3EF2824A21BDFC4D0028C2CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3EF2825021BE13D60028C2CA /* YLWareView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3EF2824B21BDFC4D0028C2CA /* ViweModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViweModel;
 			sourceTree = "<group>";
 		};
 		95CF872111F51E95B6D47762 /* Frameworks */ = {
@@ -725,6 +943,9 @@
 			files = (
 				3ECA66BF212E488E00D3258A /* LaunchScreen.storyboard in Resources */,
 				3ECA66BC212E488E00D3258A /* Assets.xcassets in Resources */,
+				3EEC8CC8213FBF6B00505167 /* Media.xcassets in Resources */,
+				3EEB489C214A5A5700DD6F07 /* Expression.bundle in Resources */,
+				3EEB489D214A5A5700DD6F07 /* Expression.plist in Resources */,
 				3ECA66B7212E488D00D3258A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -754,24 +975,34 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-BKSXStudaySwiftProject/Pods-BKSXStudaySwiftProject-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BMPlayer/BMPlayer.framework",
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/Dollar/Dollar.framework",
 				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BMPlayer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Dollar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
@@ -841,35 +1072,62 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EEB488C2149FADD00DD6F07 /* YLFullyHorizontalFlowLayout.swift in Sources */,
 				3ECA674A212E497E00D3258A /* UIViewController+Extension.swift in Sources */,
+				3EEB4892214A321B00DD6F07 /* YLChatEmotionCell.swift in Sources */,
 				3ECA6737212E497E00D3258A /* YLAllEnum.swift in Sources */,
+				3EEB4899214A59DE00DD6F07 /* YLConfig.swift in Sources */,
 				3ECA6740212E497E00D3258A /* UIColor+Value.swift in Sources */,
 				3ECA6733212E497E00D3258A /* YLBaseViewController.swift in Sources */,
+				3E156C2E2148EA93006E469C /* YLChatShareMoreCollectionViewCell.swift in Sources */,
+				3E66A7F92146428C00BAA34A /* YLChatVoiceIndicatorView.swift in Sources */,
+				3E6FD49E2151E0C000800A10 /* YLHttpUploadManger.swift in Sources */,
+				3E6FD4A121521FEE00800A10 /* YLUploadModel.swift in Sources */,
 				3ECA672F212E497E00D3258A /* YLNetworkWarningView.swift in Sources */,
+				3EEC8CCA213FD54F00505167 /* YLChatViewController+SubViews.swift in Sources */,
 				3ECA6744212E497E00D3258A /* UINavigationController+Extension.swift in Sources */,
+				3E1E7F2C214F863400EA06D8 /* YLMoyaController.swift in Sources */,
 				3ECA674B212E497E00D3258A /* YLHomeContrller.swift in Sources */,
+				3E205BE82140BD2F00E0000D /* YLChatButton.swift in Sources */,
 				3ECA66BA212E488D00D3258A /* BKSXStudaySwiftProject.xcdatamodeld in Sources */,
 				3ECA66B4212E488D00D3258A /* ViewController.swift in Sources */,
 				3ECA6734212E497E00D3258A /* YLBaseWebViewController.swift in Sources */,
 				3ECA6745212E497E00D3258A /* UISearchBar+Extension.swift in Sources */,
 				3ECA6739212E497E00D3258A /* YLWebViewProtocol.swift in Sources */,
 				3ECA6749212E497E00D3258A /* UIView+extension.swift in Sources */,
+				3E4484592154832500538E00 /* YLChatHorizontalLayout.swift in Sources */,
 				3ECA673B212E497E00D3258A /* CGRect+Value.swift in Sources */,
 				3ECA6742212E497E00D3258A /* UIImageView+extension.swift in Sources */,
 				3ECA6730212E497E00D3258A /* YLBaseNavigationViewController.swift in Sources */,
+				3E578A032138DEC10016DF42 /* UICollectionView+Extension.swift in Sources */,
+				3EC85553214F88D0009C1A9F /* YLHomeApi.swift in Sources */,
 				3ECA6732212E497E00D3258A /* YLBaseUIWebViewController.swift in Sources */,
+				3EEC8CC6213FBBC600505167 /* YLChatViewController.swift in Sources */,
+				3EF2824F21BDFC980028C2CA /* YLMyMsgViewController.swift in Sources */,
+				3EF2825121BE13D60028C2CA /* YLWareView.swift in Sources */,
+				3EEB4897214A3C7300DD6F07 /* EmotionModel.swift in Sources */,
 				3ECA6735212E497E00D3258A /* ImageMoveTransition.swift in Sources */,
 				3ECA673E212E497E00D3258A /* UIBarButtonItem+Extension.swift in Sources */,
+				3E6FD4A521524E9D00800A10 /* YLProgressHUD.swift in Sources */,
 				3ECA6743212E497E00D3258A /* UILable+extension.swift in Sources */,
 				3ECA673C212E497E00D3258A /* NSDate+Extension.swift in Sources */,
 				3ECA6738212E497E00D3258A /* YLAppKey.swift in Sources */,
 				3ECA6747212E497E00D3258A /* UITextView+extension.swift in Sources */,
 				3ECA6736212E497E00D3258A /* YLAllDefine.swift in Sources */,
+				3EEB4894214A3A9300DD6F07 /* YLEmotionManagerBar.swift in Sources */,
+				3EC85557214F95DD009C1A9F /* YLNetworking.swift in Sources */,
+				3E424DBB21427E2700C31CA6 /* YLChatViewController+ActionBar.swift in Sources */,
+				3E578A002138D8940016DF42 /* ExtensionsCommonTool.swift in Sources */,
+				3EEB488E214A318C00DD6F07 /* YLChatEmotionCollectionView.swift in Sources */,
+				3EEC8CCC213FE06B00505167 /* YLChatActionBarView.swift in Sources */,
+				3EC85555214F95CB009C1A9F /* YLNetworkingProvider.swift in Sources */,
 				3ECA6731212E497E00D3258A /* YLBaseScrollViewController.swift in Sources */,
+				3EEB4890214A31CB00DD6F07 /* YLChatEmotionInputView.swift in Sources */,
 				3ECA66B2212E488D00D3258A /* AppDelegate.swift in Sources */,
 				3ECA6746212E497E00D3258A /* UITableView+Extension.swift in Sources */,
 				3ECA6748212E497E00D3258A /* UITextField+extension.swift in Sources */,
 				3ECA673A212E497E00D3258A /* AboutAppMsg.swift in Sources */,
+				3E156BE92148A6EC006E469C /* YLChatShareMoreView.swift in Sources */,
 				3ECA673D212E497E00D3258A /* String+extension.swift in Sources */,
 				3ECA673F212E497E00D3258A /* UIButton+extension.swift in Sources */,
 				3ECA6741212E497E00D3258A /* UIImage+extension.swift in Sources */,
