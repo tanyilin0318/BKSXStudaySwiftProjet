@@ -29,14 +29,14 @@ extension UICollectionView{
     /// 注册头部
     func yl_registerSupplementaryHeaderView<T:UICollectionReusableView>(reusableView:T.Type) -> Void where T :RegisterCellFromNib{
         if let nib = T.nib {
-            register(nib, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: T.identifier)
+            register(nib, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: T.identifier)
         }else{
-            register(reusableView, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: T.identifier)
+            register(reusableView, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: T.identifier)
         }
     }
     
     /// 获取可充用头部
     func yl_dequeueReusableSupplementaryHeaderView<T:UICollectionReusableView>(indexPath:IndexPath) -> T where T:RegisterCellFromNib {
-        return dequeueReusableSupplementaryView(ofKind: UICollectionElementKindSectionHeader, withReuseIdentifier: T.identifier, for: indexPath) as! T
+        return dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: T.identifier, for: indexPath) as! T
     }
 }

@@ -41,7 +41,7 @@ extension UIBarButtonItem{
     convenience init(title:String , backImageName:String , textColor:UIColor , target:AnyObject?, actionName:String?) {
         
         let button = UIButton(title: title, fontSize: 16, color: textColor, target: target, actionName: actionName)
-        button.imageEdgeInsets = UIEdgeInsetsMake(0, -8, 0, 0)
+        button.imageEdgeInsets = UIEdgeInsets(top: 0, left: -8, bottom: 0, right: 0)
         
         if let actionName = actionName {
             button.addTarget(target, action: Selector(actionName), for: .touchUpInside)

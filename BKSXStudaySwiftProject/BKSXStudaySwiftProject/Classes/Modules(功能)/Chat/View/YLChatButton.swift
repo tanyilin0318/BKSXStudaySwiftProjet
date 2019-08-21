@@ -29,11 +29,11 @@ class YLChatButton: UIButton {
     /// - Parameter showKeyBoard: bool
     func replaceVoiceButtonUI(showKeyBoard:Bool) -> Void {
         if showKeyBoard {
-            setImage(UIImage(named: "tool_keyboard_1"), for: UIControlState())
+            setImage(UIImage(named: "tool_keyboard_1"), for: .normal)
             setImage(UIImage(named: "tool_keyboard_2"), for: .highlighted)
 
         } else {
-            setImage(UIImage(named: "tool_voice_1"), for: UIControlState())
+            setImage(UIImage(named: "tool_voice_1"), for: .normal)
             setImage(UIImage(named: "tool_voice_2"), for: .highlighted)
         }
     }
@@ -43,10 +43,10 @@ class YLChatButton: UIButton {
     /// - Parameter shwoKeyboard: bool
     func replaceEmotionButtonUI(showKeyboard : Bool) -> Void {
         if showKeyboard {
-            setImage(UIImage(named: "tool_keyboard_1"), for: UIControlState())
+            setImage(UIImage(named: "tool_keyboard_1"), for: .normal)
             setImage(UIImage(named: "tool_keyboard_2"), for: .highlighted)
         } else {
-            setImage(UIImage(named: "tool_emotion_1"), for: UIControlState())
+            setImage(UIImage(named: "tool_emotion_1"), for: .normal)
             setImage(UIImage(named: "Tool_emotion_2"), for: .highlighted)
         }
     }

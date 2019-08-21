@@ -26,10 +26,10 @@ class YLChatShareMoreCollectionViewCell: UICollectionViewCell {
     }
     
    fileprivate lazy var itemButton : UIButton! = {
-        let itemButton = UIButton(type: UIButtonType.custom)
+    let itemButton = UIButton.init(type: UIButton.ButtonType.custom)
         itemButton.backgroundColor = UIColor.white //UIColor.withHex(hexString: "eff0f5")
         itemButton.setBackgroundImage(UIImage(named: "sharemore_other_HL"), for: .highlighted)
-        itemButton.setBackgroundImage(UIImage(named: "sharemore_other"), for: UIControlState())
+        itemButton.setBackgroundImage(UIImage(named: "sharemore_other"), for: UIControl.State())
         itemButton.layer.cornerRadius = 10
         itemButton.layer.masksToBounds = true
         itemButton.layer.borderColor = UIColor.lightGray.cgColor

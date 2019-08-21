@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import BKSXStudaySwiftProject
+//@testable import BKSXStudaySwiftProject
 
 class BKSXStudaySwiftProjectTests: XCTestCase {
     

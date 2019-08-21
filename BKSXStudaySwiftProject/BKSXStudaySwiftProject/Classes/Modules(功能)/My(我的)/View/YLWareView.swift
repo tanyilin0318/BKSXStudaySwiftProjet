@@ -102,6 +102,7 @@ extension YLWareView{
     
     func startWareAnimation() -> Void {
         timer = CADisplayLink(target: self, selector: #selector(ware))
-        self.timer?.add(to: RunLoop.current, forMode: .commonModes)
+//        self.timer?.add(to: RunLoop.current, forMode: .RunLoop.Mode.common)
+        self.timer?.add(to: RunLoop.current, forMode: .common)
     }
 }

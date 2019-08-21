@@ -86,7 +86,7 @@ class imageMovePushTransition: NSObject, UIViewControllerAnimatedTransitioning {
          */
         
         tv.layoutIfNeeded()
-        UIView.animate(withDuration: transitionDuration(using: transitionContext), delay: 0, options: UIViewAnimationOptions(), animations: {
+        UIView.animate(withDuration: transitionDuration(using: transitionContext), delay: 0, options: UIView.AnimationOptions(), animations: {
             () -> Void in
             snapShotView.frame = container.convert(tv.frame, from: tv.superview)
             toVC.view.alpha = 1
@@ -153,7 +153,7 @@ class imageMovePopTransition: NSObject,UIViewControllerAnimatedTransitioning{
         container.insertSubview(toVC.view, belowSubview: fromVC.view)
         container.addSubview(snapshotView)
         
-        UIView.animate(withDuration: transitionDuration(using: transitionContext), delay: 0, options: UIViewAnimationOptions(), animations: { () -> Void in
+        UIView.animate(withDuration: transitionDuration(using: transitionContext), delay: 0, options: UIView.AnimationOptions(), animations: { () -> Void in
             snapshotView.frame = container.convert(tv.frame, from: tv.superview)
         }, completion: {(finish : Bool) -> Void in
             snapshotView.removeFromSuperview()

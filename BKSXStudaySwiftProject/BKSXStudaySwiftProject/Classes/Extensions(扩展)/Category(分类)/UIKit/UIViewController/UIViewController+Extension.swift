@@ -45,7 +45,7 @@ extension UIViewController{
         let button = UIButton(type: .custom)
         button.addTarget(self, action: #selector(onPopButton), for: .touchUpInside)
         button.setImage(UIImage(named: ""), for: .normal)
-        button.contentEdgeInsets = UIEdgeInsetsMake(12, 15, 12, 15)
+        button.contentEdgeInsets = UIEdgeInsets.init(top: 12, left: 15, bottom: 12, right: 15)
         button.sizeToFit()
         button.center = CGPoint(x: 15 + iconPointSize/2.0 , y: 20+21)// 状态栏 + 导航栏 = 20 + 44，按系统导航栏惯例是导航栏中心往上偏移1point
         view.addSubview(button)

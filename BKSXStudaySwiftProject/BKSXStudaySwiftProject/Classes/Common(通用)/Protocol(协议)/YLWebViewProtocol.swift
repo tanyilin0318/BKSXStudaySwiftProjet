@@ -196,7 +196,7 @@ extension webViewHandlerURLProtocol{
             
             DispatchQueue.main.async {
                 if #available(iOS 10.0, *){
-                    UIApplication.shared.open(url, options: [UIApplicationOpenURLOptionUniversalLinksOnly : false], completionHandler: { (completed) in
+                    UIApplication.shared.open(url, options: [.universalLinksOnly : false], completionHandler: { (completed) in
                         print("【WKWebView】\(completed ? "succeeded to" : "failed to") open another app with url: \(url)")
                     })
                 }else {
@@ -215,7 +215,7 @@ extension webViewHandlerURLProtocol{
                 ac.addAction(UIAlertAction(title: "确定", style: .default, handler: { (aa) in
                     
                     if #available(iOS 10.0, *){
-                        UIApplication.shared.open(url, options: [UIApplicationOpenURLOptionUniversalLinksOnly : false], completionHandler: { (completed) in
+                        UIApplication.shared.open(url, options: [.universalLinksOnly : false], completionHandler: { (completed) in
                             print("【WKWebView】open App Store with url: \(url)")
                         })
                     }else {

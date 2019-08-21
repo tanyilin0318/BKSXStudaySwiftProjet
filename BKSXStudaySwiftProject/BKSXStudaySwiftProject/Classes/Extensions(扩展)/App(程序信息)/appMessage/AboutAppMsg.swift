@@ -71,7 +71,7 @@ public struct App{
     
     /// 除去状态栏高度的屏幕尺寸。    
     public static var screenHeightWithOutStatusBar: CGFloat{
-        if UIInterfaceOrientationIsPortrait(screenOrientation){
+        if screenOrientation.isPortrait{
             return UIScreen.main.bounds.size.height - screenStatusBarHeight
         } else{
             return UIScreen.main.bounds.size.width - screenStatusBarHeight

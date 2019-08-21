@@ -44,7 +44,7 @@ class YLChatHorizontalLayout: UICollectionViewFlowLayout {
         collectionView?.showsVerticalScrollIndicator = false
         /// 上下的间距 高度 - 去空间的高度
         let insetMargin = ((collectionView?.bounds.height)! - CGFloat(row)*itemWH) * 0.5
-        collectionView?.contentInset = UIEdgeInsetsMake(insetMargin, 0, insetMargin, 0)
+        collectionView?.contentInset = UIEdgeInsets.init(top: insetMargin, left: 0, bottom: insetMargin, right: 0) //UIEdgeInsets(top: insetMargin, left: 0, bottom: insetMargin, right: 0)
         var page = 0
         let itemCount = collectionView?.numberOfItems(inSection: 0) ?? 0
         for itemIndex in 0..<itemCount {

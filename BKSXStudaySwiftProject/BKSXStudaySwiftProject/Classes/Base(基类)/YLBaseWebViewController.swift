@@ -18,22 +18,22 @@ class YLBaseWebViewController: YLBaseScrollViewController{
     fileprivate let goForwardButton = UIBarButtonItem(image: UIImage(named: "<#T##String#>"), style: .plain, target: nil, action: #selector(goForWordButtonPressedAction(sender:)))
 
     /// 停止按钮
-    fileprivate let stopButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.stop, target: nil, action: #selector(stopButtonPressedAction(sender:)))
+    fileprivate let stopButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.stop, target: nil, action: #selector(stopButtonPressedAction(sender:)))
     
     /// 刷新按钮
-    fileprivate let refreshButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.refresh, target: nil, action: #selector(refreshButtonPressedAction(sender:)))
+    fileprivate let refreshButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.refresh, target: nil, action: #selector(refreshButtonPressedAction(sender:)))
     
     /// <#Description#>
-    fileprivate let actionButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.action, target: nil, action: #selector(actionButtonPressedAction(sender:)))
+    fileprivate let actionButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.action, target: nil, action: #selector(actionButtonPressedAction(sender:)))
     
     /// 打开网站在safari
     fileprivate let openInSafariButton = UIBarButtonItem(image: UIImage(named: "<#T##String#>")?.withRenderingMode(.alwaysTemplate), style: .plain, target: nil, action: #selector(openInSafariButtonPressedAction(sender:)))
     
     /// <#Description#>
-    fileprivate let fixedSeparator = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.fixedSpace, target: nil, action: nil)
+    fileprivate let fixedSeparator = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.fixedSpace, target: nil, action: nil)
     
     /// <#Description#>
-    fileprivate let flexibleSeparator = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.flexibleSpace, target: nil, action: nil)
+    fileprivate let flexibleSeparator = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.flexibleSpace, target: nil, action: nil)
     
     /// <#Description#>
     fileprivate var actionButtonHidden = true {
@@ -560,26 +560,26 @@ extension YLBaseWebViewController {
             let wkError = WKError(_nsError: err)
             // err.code == 102 // "包含 app store 链接"
             // err.code == 204 // "当链接就视频路径时（不影响视频正常播放）"
-            switch wkError.code {
-            case .unknown:
-                break
-            case .webContentProcessTerminated:
-                break
-            case .webViewInvalidated:
-                break
-            case .javaScriptExceptionOccurred:
-                break
-            case .javaScriptResultTypeIsUnsupported:
-                break
-            case .contentRuleListStoreCompileFailed:
-                break
-            case .contentRuleListStoreLookUpFailed:
-                break
-            case .contentRuleListStoreRemoveFailed:
-                break
-            case .contentRuleListStoreVersionMismatch:
-                break
-            }
+//            switch wkError.code {
+//            case .unknown:
+//                break
+//            case .webContentProcessTerminated:
+//                break
+//            case .webViewInvalidated:
+//                break
+//            case .javaScriptExceptionOccurred:
+//                break
+//            case .javaScriptResultTypeIsUnsupported:
+//                break
+//            case .contentRuleListStoreCompileFailed:
+//                break
+//            case .contentRuleListStoreLookUpFailed:
+//                break
+//            case .contentRuleListStoreRemoveFailed:
+//                break
+//            case .contentRuleListStoreVersionMismatch:
+//                break
+//            }
         }
     }
 }

@@ -129,7 +129,7 @@ class YLChatActionBarView: UIView {
         inputTextView.layer.borderWidth = 0.5
         inputTextView.layer.cornerRadius = 5.0
         inputTextView.layer.masksToBounds = true
-        inputTextView.textContainerInset = UIEdgeInsetsMake(7, 5, 5, 5)
+        inputTextView.textContainerInset = UIEdgeInsets(top: 7, left: 5, bottom: 5, right: 5)
         inputTextView.returnKeyType = .send
         inputTextView.enablesReturnKeyAutomatically = true
         inputTextView.layoutManager.allowsNonContiguousLayout = false

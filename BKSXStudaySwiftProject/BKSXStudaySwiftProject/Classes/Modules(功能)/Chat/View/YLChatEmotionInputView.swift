@@ -95,7 +95,7 @@ class YLChatEmotionInputView: UIView {
         flowLayOut.itemSize = CGSize.init(width: itemWidth, height: itemHeight)
         flowLayOut.minimumLineSpacing = 0
         flowLayOut.minimumInteritemSpacing = 0
-        flowLayOut.sectionInset = UIEdgeInsetsMake(10 , paddingLeft, 0, paddingRight)
+        flowLayOut.sectionInset = UIEdgeInsets.init(top: 10, left: paddingLeft, bottom: 0, right: paddingRight)
         
         /// init dataSource
         guard let emojiArray = NSArray.init(contentsOfFile: YLConfig.ExpressionPlist!) else {

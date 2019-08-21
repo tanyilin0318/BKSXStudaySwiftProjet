@@ -22,7 +22,7 @@ class YLEmotionManagerBar: UIView {
     var delegate : YLEmotionManagerBarDelegate?
     
     lazy var addButton: UIButton = {
-        let addButton = UIButton.init(type: UIButtonType.custom)
+        let addButton = UIButton.init(type: UIButton.ButtonType.custom)
         addButton.backgroundColor = UIColor.white
         addButton.setImage(UIImage(named: "Card_AddIcon"), for: .normal)
         addButton.setImage(UIImage(named: "Card_AddIcon"), for: .highlighted)

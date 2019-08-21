@@ -10,7 +10,7 @@ import UIKit
 
 
 class Common{
-    static let titleAttributes = [NSAttributedStringKey.font : UIFont.boldSystemFont(ofSize: 15), NSAttributedStringKey.backgroundColor : UIColor.white]
+    static let titleAttributes = [NSAttributedString.Key.font : UIFont.boldSystemFont(ofSize: 15), NSAttributedString.Key.backgroundColor : UIColor.white]
     
     static let netWorkTimeOut:TimeInterval = 10
     
@@ -82,7 +82,7 @@ class YLBaseNavigationViewController: UINavigationController {
         }
     }
     
-    override func popViewController(animated: Bool) -> UIViewController? {
+     override func popViewController(animated: Bool) -> UIViewController? {
         let vc = super.popViewController(animated: animated)
         print(self , #function ,animated)
         return vc
@@ -172,7 +172,7 @@ class YLBaseNavigationViewController: UINavigationController {
         return percentDrivenTransition as? UIViewControllerAnimatedTransitioning
     }
     
-    func navigationController(_ navigationController: UINavigationController, animationControllerFor operation:UINavigationControllerOperation, from fromVC:UIViewController, to toVC:UIViewController) -> UIViewControllerAnimatedTransitioning {
+    func navigationController(_ navigationController: UINavigationController, animationControllerFor operation:UINavigationController.Operation, from fromVC:UIViewController, to toVC:UIViewController) -> UIViewControllerAnimatedTransitioning {
         if let rd = realDelegate {
             let result = rd.navigationController!(navigationController, animationControllerFor: operation, from: fromVC, to: toVC)
             print(self,#function,operation,fromVC,toVC,rd)
@@ -193,6 +193,8 @@ class YLBaseNavigationViewController: UINavigationController {
                 result = imageMovePushTransition()
             }
 
+        @unknown default: break
+            
         }
         
         print(self,#function,operation,fromVC,toVC)

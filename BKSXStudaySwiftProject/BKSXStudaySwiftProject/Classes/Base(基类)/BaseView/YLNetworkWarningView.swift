@@ -23,8 +23,8 @@ class YLNetworkWarningView: UIView {
 
             //==控件
     let tipLable = UILabel(frame: CGRect.zero)
-    let actionButton = UIButton(type: UIButtonType.custom)
-    let activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.gray)
+    let actionButton = UIButton.init(type: .custom)
+    let activityIndicator = UIActivityIndicatorView.init(style: .gray)
     fileprivate let buttonSize = CGSize.init(width: 80, height: 30)
     fileprivate let vDistance : CGFloat = 20
     

@@ -10,7 +10,7 @@ import UIKit
 
 extension UIButton{
     
-    static func initWithMsg(Type type:UIButtonType?, Title title:String?, Frame frame:CGRect?, TitleColor titleColor:UIColor?,
+    static func initWithMsg(Type type:UIButton.ButtonType?, Title title:String?, Frame frame:CGRect?, TitleColor titleColor:UIColor?,
                             Image imageName:String?, hImage himageName:String?, BackGroundColor bgColor:UIColor?, Font font:UIFont?, Target target:Any? ,Action action:Selector?) -> UIButton {
         let button = UIButton.init(type: type!);
         
@@ -196,8 +196,8 @@ extension UIButton{
         if (titleSize.width < labelWidth) {
             titleSize.width = labelWidth
         }
-        titleEdgeInsets = UIEdgeInsetsMake(imageSize.height+Space, -imageSize.width, -Space, 0.0)
-        imageEdgeInsets = UIEdgeInsetsMake(-Space, 0.0, 0.0, 0.0)
+        titleEdgeInsets = UIEdgeInsets.init(top: imageSize.height+Space, left: -imageSize.width, bottom: -Space, right: 0.0)
+        imageEdgeInsets = UIEdgeInsets.init(top: -Space, left: 0.0, bottom: 0.0, right: 0.0)
     }
     
     

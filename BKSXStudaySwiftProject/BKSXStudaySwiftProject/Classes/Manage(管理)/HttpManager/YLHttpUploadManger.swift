@@ -50,7 +50,7 @@ extension YLHttpUploadManger{
                            progressValue:@escaping (_ value: Double) -> Void,
                            failClosure:@escaping FailClosure) -> Void {
         //开始
-        let imageData = UIImageJPEGRepresentation(image, 0.7)
+        let imageData = image.jpegData(compressionQuality: 0.7);
 
     
         Alamofire.upload(multipartFormData: { (multipartForData) in

@@ -119,7 +119,7 @@ open class YLBaseViewController: UIViewController{
             }
             
             leftBtnItem = UIBarButtonItem.init(customView: leftButton!)
-            let negativeSpace : UIBarButtonItem? = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.fixedSpace, target: nil, action: nil)
+            let negativeSpace : UIBarButtonItem? = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.fixedSpace, target: nil, action: nil)
             self.navigationItem.setLeftBarButtonItems([negativeSpace! , self.leftBtnItem!], animated: false)
             
         }
